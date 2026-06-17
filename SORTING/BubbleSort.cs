@@ -34,6 +34,24 @@ namespace SORTING
             arr[i] = arr[y];
             arr[y] = temp;
         }
+
+        #region Increasing order udemy Assessment
+        public int[] sortDecreasingOrder(int[] array)
+        {
+            for(int w = array.Length - 1 ; w < array.Length;w--)
+            {
+                for (int i = 0; i < w; i++)
+                {
+                    if (array[i] < array[i + 1])
+                    {
+                        Swap(array,i, i + 1);
+                    }
+                }
+            }
+            return array;
+        }
+
+        #endregion
     }
 
 }
