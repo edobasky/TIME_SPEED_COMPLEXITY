@@ -2,7 +2,7 @@
 
 internal class Program
 {
-    private static void Main(string[] args)
+/*    private static void Main(string[] args)
     {
         Console.WriteLine("Hello, Algo Suckers!");
         #region bubble sort implementation
@@ -19,5 +19,5 @@ internal class Program
         }
         Console.WriteLine();
         #endregion
-    }
+    }*/
 }

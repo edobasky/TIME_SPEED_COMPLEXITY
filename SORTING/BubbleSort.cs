@@ -11,7 +11,7 @@ namespace SORTING
         i and i+1 is checked withing the boundaries of the current wall and swapped if i is 
         greater than (i + 1)....
          */
-        public int[] sortImp(int[] array)
+        public static void sortImp(int[] array)
         {
             for (int a = array.Length - 1; a > 0; a--)
             {
@@ -23,10 +23,10 @@ namespace SORTING
                     }
                 }
             }
-            return array;
+          //  return array;
         }
 
-        private void Swap(int[] arr, int i, int y)
+        private static void Swap(int[] arr, int i, int y)
         {
             if (i == y) return;
 
@@ -36,7 +36,7 @@ namespace SORTING
         }
 
         #region Increasing order udemy Assessment
-        public int[] sortDecreasingOrder(int[] array)
+        public int[]  sortDecreasingOrder(int[] array)
         {
             for(int w = array.Length - 1 ; w < array.Length;w--)
             {
